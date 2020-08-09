@@ -11,10 +11,8 @@ R2 LM2595 N001 3065
 XU2 N003 0 LM7805-OUT LM7805
 C4 LM7805-OUT 0 0.1µ
 C5 N003 0 0.33µ
-R3 LM7805-OUT 0 100
-R4 LM2595 0 100
 .model D D
-.lib C:\Users\waltd\Documents\LTspiceXVII\lib\cmp\standard.dio
+.lib C:\Users\waltd\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.dio
 .incl LM2595_ADJ_TRANS.LIB
 .tran 0 2m 0 1u
 ;step param R 50 100 10
