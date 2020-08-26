@@ -1,0 +1,9 @@
+.param dcAmplitude 	0.00
+.param sineOffset 	0.0E+00
+###### Below you put your own temp coefficient
+.param sineAmplitude 	00.000000E-03 
+.param sineFreq		00
+.param transtop 	30
+.param transtart 	0.000000E+00
+.param timestep 	1.000000E-03
+
