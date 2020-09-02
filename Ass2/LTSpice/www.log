@@ -7,45 +7,116 @@ Gmin = 10
 vernier = 0.5
 vernier = 0.25
 vernier = 0.125
-Gmin = 6.68666
+Gmin = 5.5165
 vernier = 0.0625
 vernier = 0.03125
 vernier = 0.015625
 vernier = 0.0078125
-Gmin = 6.72377
+Gmin = 5.49501
 vernier = 0.00390625
 vernier = 0.00195313
 vernier = 0.000976563
 vernier = 0.000488281
-Gmin = 6.72131
+Gmin = 5.50104
 Gmin = 0
 Gmin stepping failed
 
 Starting source stepping with srcstepmethod=0
 Source Step = 3.0303%
 vernier = 0.25
-Source Step = 6.25%
+Source Step = 7.57576%
+Source Step = 15.1515%
+Source Step = 22.7273%
+Source Step = 28.9773%
 vernier = 0.015625
-Source Step = 6.08428%
+Source Step = 28.8116%
+Source Step = 28.8411%
+Source Step = 28.8707%
+Source Step = 28.9003%
+Source Step = 28.9299%
+vernier = 0.00146484
+Source Step = 28.9625%
+Source Step = 29.0069%
+Source Step = 29.0513%
+Source Step = 29.0956%
+Source Step = 29.14%
+vernier = 0.00219727
+Source Step = 29.1866%
+Source Step = 29.2532%
+Source Step = 29.3198%
+Source Step = 29.3864%
+Source Step = 29.453%
+Source Step = 29.5196%
+vernier = 0.0032959
+Source Step = 29.6194%
+Source Step = 29.7193%
+Source Step = 29.8192%
+Source Step = 29.9191%
+Source Step = 30.0189%
+vernier = 0.00494385
+Source Step = 30.1638%
+Source Step = 30.3136%
+Source Step = 30.4634%
+Source Step = 30.6132%
+Source Step = 30.763%
+vernier = 0.00741577
+Source Step = 30.9728%
+Source Step = 31.1975%
+Source Step = 31.4222%
+Source Step = 31.6469%
+Source Step = 31.8716%
+vernier = 0.0111237
+Source Step = 32.175%
+Source Step = 32.5121%
+Source Step = 32.8492%
+Source Step = 33.1862%
+Source Step = 33.5233%
+vernier = 0.0166855
+Source Step = 33.9615%
+Source Step = 34.4672%
+Source Step = 34.9728%
+Source Step = 35.4784%
+Source Step = 35.984%
+vernier = 0.0250282
+Source Step = 36.616%
+Source Step = 37.3745%
+Source Step = 38.1329%
+Source Step = 38.8913%
+Source Step = 39.6498%
+vernier = 0.0375423
+Source Step = 40.5599%
+Source Step = 41.6975%
+Source Step = 42.8352%
+Source Step = 43.9728%
+Source Step = 45.1105%
+vernier = 0.0563135
+Source Step = 46.4188%
+Source Step = 48.1252%
+Source Step = 49.8317%
+Source Step = 51.5382%
+Source Step = 53.2446%
+vernier = 0.0844703
+Source Step = 55.1218%
+Source Step = 57.6815%
+Source Step = 60.2412%
+Source Step = 62.8009%
+Source Step = 65.3606%
+vernier = 0.126705
+Source Step = 68.0483%
+Source Step = 71.8878%
+Source Step = 75.7274%
+Source Step = 79.5669%
+Source Step = 83.4065%
+Source Step = 87.2461%
+vernier = 0.190058
+Source Step = 93.0054%
+Source Step = 95.9031%
 Starting source stepping with srcstepmethod=1
 Source Step = 3.0303%
-vernier = 0.25
-Source Step = 3.79084%
 Source stepping failed
 
-Pseudo Transient failed in finding the operating point at 219.133 ms.
-Trouble finding operating point....skipping operating point for Transient analysis.
-Changing Tseed to 1e-007
-Changing Tseed to 1e-009
-Changing Tseed to 1e-006
-Changing Tseed to 1e-010
-Changing Tseed to 1e-005
-Changing Tseed to 1e-011
-Changing Tseed to 0.0001
-Changing Tseed to 1e-012
-Changing Tseed to 0.001
-Changing Tseed to 1e-013
-Changing Tseed to 0.01
-Changing Tseed to 1e-014
-Fatal Error: Analysis:  Time step too small; initial timepoint: trouble with u2:jx-instance j:u2:2
+Pseudo Transient succeeded in finding the operating point at 1.36776 s.
+Heightened Def Con from 0.4195 to 0.4195
+Heightened Def Con from 0.8275 to 0.8275
+Heightened Def Con from 1.05562 ++++++++++++++++++++++++++++++++++++++++++++++++++Fatal Error: Analysis:  Time step too small; time = 1.05562, timestep = 1.74375e-016: trouble with u2:jx-instance j:u2:2
 
