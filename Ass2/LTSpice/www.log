@@ -111,12 +111,107 @@ Source Step = 87.2461%
 vernier = 0.190058
 Source Step = 93.0054%
 Source Step = 95.9031%
+Source Step = 95.9931%
+Source Step = 96.083%
+Source Step = 96.173%
+Source Step = 96.263%
+Source Step = 96.353%
+Source Step = 96.443%
+Source Step = 96.533%
+Source Step = 96.623%
+Source Step = 96.713%
+Source Step = 96.803%
+Source Step = 96.893%
+Source Step = 96.9829%
+Source Step = 97.0729%
+Source Step = 97.1629%
+Source Step = 97.2529%
+Source Step = 97.3429%
+Source Step = 97.4329%
+Source Step = 97.5229%
+Source Step = 97.6129%
+Source Step = 97.7029%
+Source Step = 97.7928%
+Source Step = 97.8828%
+Source Step = 97.9728%
 Starting source stepping with srcstepmethod=1
 Source Step = 3.0303%
+vernier = 0.25
+Source Step = 1.08902%
+vernier = 0.00390625
 Source stepping failed
 
-Pseudo Transient succeeded in finding the operating point at 1.36776 s.
-Heightened Def Con from 0.4195 to 0.4195
-Heightened Def Con from 0.8275 to 0.8275
-Heightened Def Con from 1.05562 ++++++++++++++++++++++++++++++++++++++++++++++++++Fatal Error: Analysis:  Time step too small; time = 1.05562, timestep = 1.74375e-016: trouble with u2:jx-instance j:u2:2
+Pseudo transient terminated at 102.962 s, solution accepted ready or not!
+Heightened Def Con from 0.6515 to 0.6515
+Heightened Def Con from 0.651533 to 0.651533
+Heightened Def Con from 1.6505 to 1.6505
+Heightened Def Con from 2.6695 to 2.6695
+Heightened Def Con from 2.67002 to 2.67002
+Heightened Def Con from 3.6695 to 3.6695
+Heightened Def Con from 3.66973 to 3.66973
+Heightened Def Con from 5.6675 to 5.6675
+Heightened Def Con from 6.6515 to 6.6515
+Heightened Def Con from 7.6745 to 7.6745
+Heightened Def Con from 7.67476 to 7.67476
+Heightened Def Con from 9.6767 to 9.6767
+Heightened Def Con from 9.67696 to 9.67696
+Heightened Def Con from 10.6695 to 10.6695
+Heightened Def Con from 10.67 to 10.67
+Heightened Def Con from 10.6703 to 10.6703
+Heightened Def Con from 11.6655 to 11.6655
+Heightened Def Con from 11.666 to 11.666
+Heightened Def Con from 12.6625 to 12.6625
+Heightened Def Con from 12.6628 to 12.6628
+Heightened Def Con from 13.6687 to 13.6687
+Heightened Def Con from 13.669 to 13.669
+Heightened Def Con from 13.669 to 13.669
+Heightened Def Con from 14.6625 to 14.6625
+Heightened Def Con from 14.663 to 14.663
+Heightened Def Con from 14.6633 to 14.6633
+Heightened Def Con from 15.6603 to 15.6603
+Heightened Def Con from 16.6687 to 16.6687
+Heightened Def Con from 16.669 to 16.669
+Heightened Def Con from 16.6692 to 16.6692
+Heightened Def Con from 17.6615 to 17.6615
+Heightened Def Con from 17.6618 to 17.6618
+Heightened Def Con from 17.6618 to 17.6618
+Heightened Def Con from 18.6761 to 18.6761
+Heightened Def Con from 19.6655 to 19.6655
+Heightened Def Con from 19.666 to 19.666
+Heightened Def Con from 20.6855 to 20.6855
+Heightened Def Con from 21.6683 to 21.6683
+Heightened Def Con from 21.6686 to 21.6686
+Heightened Def Con from 22.3105 to 22.3105
+Heightened Def Con from 22.6625 to 22.6625
+Heightened Def Con from 22.6626 to 22.6626
+Heightened Def Con from 23.6735 to 23.6735
+Heightened Def Con from 24.6775 to 24.6775
+Heightened Def Con from 24.6778 to 24.6778
+Heightened Def Con from 25.6567 to 25.6567
+Heightened Def Con from 25.657 to 25.657
+Heightened Def Con from 26.6745 to 26.6745
+Heightened Def Con from 27.6425 to 27.6425
+Heightened Def Con from 27.6428 to 27.6428
+Heightened Def Con from 28.6655 to 28.6655
+Heightened Def Con from 28.6657 to 28.6657
+Heightened Def Con from 29.6745 to 29.6745
+Heightened Def Con from 29.6748 to 29.6748
+
+Date: Sun Sep 20 15:52:20 2020
+Total elapsed time: 36.943 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 187636
+traniter = 144437
+tranpoints = 61829
+accept = 59160
+rejected = 3257
+matrix size = 293
+fillins = 3021
+solver = Normal
+Thread vector: 17.6/11.0[6] 5.3/3.3[6] 14.4/6.6[6] 1.2/1.9[1]  2592/500
+Matrix Compiler1: 671.03 KB object code size  86.7/33.0/[22.8]
+Matrix Compiler2: 76.18 KB object code size  8.0/5.8/[2.6]
 
