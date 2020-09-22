@@ -1,0 +1,52 @@
+* C:\work\E344\E344\Ass2\LTSpice\Deyzel_21750793_A2.asc
+V2 N003 N002 PWL file=PWLinput.csv
+V3 Stimulus N003 SINE({sineOffset} {sineAmplitude} {sineFreq})
+V1 N002 0 {dcAmplitude}
+V4 N004 0 9
+R_Sense 9V N004 0.010
+XU1 9V 0 5v LM7805
+C1 5v 0 0.33µ
+C2 9V 0 0.1µ
+R1 d c 100k
+R2 c high-pass-out 100k
+C3 filter-out c 900n
+C4 0 d 450n
+XU2 d filter-out 5v 0 filter-out TL081
+R3 5v g 100k
+R4 g 0 100k
+R5 f ofset 10k
+R6 e filter-out 10k
+R7 amplify f 400k
+R8 Vgnd e 400k
+XU4 b high-pass-out 5v 0 high-pass-out TL081
+R9 b ofset 2000k
+R10 high-pass-out a 750530
+C5 b a 0.1µ
+C6 a Stimulus 0.1µ
+R11 5v h 150k
+R12 h 0 100k
+XU5 g Vgnd 5v 0 Vgnd TL081
+XU6 h ref 5v 0 ref TL081
+R14 5v N001 150k
+R15 N001 0 150k
+XU7 N001 ofset 5v 0 ofset TL081
+R16 N005 ref 10k
+R17 N006 amplify 10k
+R13 VoutBeatPulses N006 1000k
+XU3 N006 N005 5v 0 VoutBeatPulses LT1018
+XU9 e f 5v 0 amplify TLC2272
+.tran 0 {transtop} 0 {timestep}
+.include E344cfg.txt
+* Don't change these -- used for auto-assessments.\nYou may modify input files while developing.\nFor submission: \n  * Use only 9V supply \n  * Connect "Stimulus" to your input\n  * Connect "VoutXXXX" to your output signals.\n  * Only one label name per net.
+* Config file:
+* Analysis setup:
+* Battery
+* Sensor-\nemulating \nstimulus
+* Assessed nets:\nConnect to your outputs
+* W. Deyzel.,  21750793\nDC = 1900 mV\nHeart rate pk = 66.6 mV
+.incl TLC2272.LIB
+.incl TL081.lib
+.lib LM78XX_RS.lib
+.lib LTC1.lib
+.backanno
+.end
