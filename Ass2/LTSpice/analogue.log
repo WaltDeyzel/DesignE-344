@@ -1,6 +1,6 @@
 Circuit: * C:\work\E344\E344\Ass2\LTSpice\analogue.asc
 
-WARNING: Less than two connections to node NC_02.  This node is used by R2.
+A1: all pins shorted together -- ignoring.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -8,34 +8,87 @@ Gmin = 1.07374
 Gmin = 0.115292
 Gmin = 0.0123794
 Gmin = 0.00132923
-Gmin = 0.000142725
-Gmin = 1.5325e-005
-Gmin = 1.6455e-006
-Gmin = 1.76685e-007
-Gmin = 1.89714e-008
-Gmin = 2.03704e-009
-Gmin = 2.18725e-010
-Gmin = 2.34854e-011
-Gmin = 2.52173e-012
-Gmin = 2.70769e-013
+vernier = 0.5
+Gmin = 0.000275318
+vernier = 0.666667
+vernier = 0.888888
+Gmin = 6.27402e-005
+vernier = 1
+Gmin = 7.53781e-006
+Gmin = 8.09366e-007
+Gmin = 8.6905e-008
+Gmin = 9.33136e-009
+Gmin = 1.00195e-009
+Gmin = 1.07583e-010
+Gmin = 1.15517e-011
+Gmin = 1.24035e-012
+Gmin = 1.33182e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
+Heightened Def Con from 1.43641 to 1.43641
+Heightened Def Con from 1.43694 to 1.43694
+Heightened Def Con from 1.4372 to 1.4372
+Heightened Def Con from 1.43735 to 1.43735
+Heightened Def Con from 2.43651 to 2.43651
+Heightened Def Con from 2.43703 to 2.43703
+Heightened Def Con from 2.43729 to 2.43729
+Heightened Def Con from 2.43735 to 2.43735
+Heightened Def Con from 3.43682 to 3.43682
+Heightened Def Con from 3.43735 to 3.43735
+Heightened Def Con from 4.43702 to 4.43702
+Heightened Def Con from 4.43728 to 4.43728
+Heightened Def Con from 6.43682 to 6.43682
+Heightened Def Con from 6.43735 to 6.43735
+Heightened Def Con from 8.43707 to 8.43707
+Heightened Def Con from 8.43733 to 8.43733
+Heightened Def Con from 12.4365 to 12.4365
+Heightened Def Con from 12.437 to 12.437
+Heightened Def Con from 12.4373 to 12.4373
+Heightened Def Con from 14.4367 to 14.4367
+Heightened Def Con from 14.4372 to 14.4372
+Heightened Def Con from 18.4367 to 18.4367
+Heightened Def Con from 18.4372 to 18.4372
+Heightened Def Con from 20.4364 to 20.4364
+Heightened Def Con from 20.437 to 20.437
+Heightened Def Con from 20.4372 to 20.4372
+Heightened Def Con from 21.4365 to 21.4365
+Heightened Def Con from 21.437 to 21.437
+Heightened Def Con from 21.4372 to 21.4372
+Heightened Def Con from 23.4368 to 23.4368
+Heightened Def Con from 23.4373 to 23.4373
+Heightened Def Con from 23.4373 to 23.4373
+Heightened Def Con from 25.4367 to 25.4367
+Heightened Def Con from 25.4373 to 25.4373
+Heightened Def Con from 26.4366 to 26.4366
+Heightened Def Con from 26.4371 to 26.4371
+Heightened Def Con from 26.4373 to 26.4373
+Heightened Def Con from 27.4366 to 27.4366
+Heightened Def Con from 27.4372 to 27.4372
+Heightened Def Con from 27.4373 to 27.4373
+Heightened Def Con from 27.4374 to 27.4374
+Heightened Def Con from 28.4366 to 28.4366
+Heightened Def Con from 28.4371 to 28.4371
+Heightened Def Con from 28.4372 to 28.4372
+Heightened Def Con from 29.4366 to 29.4366
+Heightened Def Con from 29.4372 to 29.4372
+Heightened Def Con from 29.4373 to 29.4373
+Heightened Def Con from 29.4373 to 29.4373
 
-Date: Thu Sep 24 18:45:27 2020
-Total elapsed time: 0.364 seconds.
+Date: Fri Sep 25 11:48:55 2020
+Total elapsed time: 0.841 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 102888
-traniter = 102525
-tranpoints = 42302
-accept = 40039
-rejected = 2263
-matrix size = 13
-fillins = 0
+totiter = 93763
+traniter = 93132
+tranpoints = 37001
+accept = 35038
+rejected = 2011
+matrix size = 24
+fillins = 8
 solver = Normal
-Matrix Compiler1: 548 bytes object code size  0.3/0.2/[0.2]
-Matrix Compiler2: 857 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler1: 1.54 KB object code size  0.3/0.1/[0.1]
+Matrix Compiler2: 2.20 KB object code size  0.2/0.5/[0.2]
 
