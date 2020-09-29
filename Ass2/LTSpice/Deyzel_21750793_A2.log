@@ -117,58 +117,61 @@ Source Step = 3.0303%
 Source Step = 12.136%
 Source stepping failed
 
-Pseudo transient terminated at 100.911 s, solution accepted ready or not!
-Heightened Def Con from 0.4735 to 0.4735
-Heightened Def Con from 0.474024 to 0.474024
-Heightened Def Con from 0.474155 to 0.474155
-Heightened Def Con from 0.474246 to 0.474246
-Heightened Def Con from 1.5401 to 1.5401
-Heightened Def Con from 1.5402 to 1.5402
-Heightened Def Con from 3.55094 to 3.55094
-Heightened Def Con from 8.55488 to 8.55488
-Heightened Def Con from 9.55883 to 9.55883
-Heightened Def Con from 9.55896 to 9.55896
-Heightened Def Con from 9.55905 to 9.55905
-Heightened Def Con from 10.5378 to 10.5378
-Heightened Def Con from 11.5538 to 11.5538
-Heightened Def Con from 11.554 to 11.554
-Heightened Def Con from 14.532 to 14.532
-Heightened Def Con from 14.532 to 14.532
-Heightened Def Con from 15.5544 to 15.5544
-Heightened Def Con from 15.5549 to 15.5549
-Heightened Def Con from 15.5552 to 15.5552
-Heightened Def Con from 15.5552 to 15.5552
-Heightened Def Con from 16.5396 to 16.5396
-Heightened Def Con from 18.541 to 18.541
-Heightened Def Con from 19.5508 to 19.5508
-Heightened Def Con from 19.551 to 19.551
-Heightened Def Con from 19.5511 to 19.5511
-Heightened Def Con from 20.5307 to 20.5307
-Heightened Def Con from 21.5683 to 21.5683
-Heightened Def Con from 22.5563 to 22.5563
-Heightened Def Con from 22.5564 to 22.5564
-Heightened Def Con from 24.5748 to 24.5748
-Heightened Def Con from 25.568 to 25.568
-Heightened Def Con from 27.536 to 27.536
-Heightened Def Con from 28.5607 to 28.5607
-Heightened Def Con from 29.5447 to 29.5447
-Heightened Def Con from 29.5452 to 29.5452
+Pseudo transient terminated at 100.328 s, solution accepted ready or not!
+Heightened Def Con from 0.4641 to 0.4641
+Heightened Def Con from 1.5345 to 1.5345
+Heightened Def Con from 1.53502 to 1.53502
+Heightened Def Con from 1.53529 to 1.53529
+Heightened Def Con from 2.5203 to 2.5203
+Heightened Def Con from 2.52056 to 2.52056
+Heightened Def Con from 2.52059 to 2.52059
+Heightened Def Con from 3.5295 to 3.5295
+Heightened Def Con from 3.53002 to 3.53002
+Heightened Def Con from 3.53011 to 3.53011
+Heightened Def Con from 4.54087 to 4.54087
+Heightened Def Con from 5.5287 to 5.5287
+Heightened Def Con from 5.52922 to 5.52922
+Heightened Def Con from 5.52935 to 5.52935
+Heightened Def Con from 7.5283 to 7.5283
+Heightened Def Con from 7.52844 to 7.52844
+Heightened Def Con from 10.5258 to 10.5258
+Heightened Def Con from 11.5305 to 11.5305
+Heightened Def Con from 11.531 to 11.531
+Heightened Def Con from 11.5313 to 11.5313
+Heightened Def Con from 12.5194 to 12.5194
+Heightened Def Con from 12.5196 to 12.5196
+Heightened Def Con from 12.5198 to 12.5198
+Heightened Def Con from 13.5601 to 13.5601
+Heightened Def Con from 14.5295 to 14.5295
+Heightened Def Con from 18.54 to 18.54
+Heightened Def Con from 19.5138 to 19.5138
+Heightened Def Con from 21.5288 to 21.5288
+Heightened Def Con from 22.5247 to 22.5247
+Heightened Def Con from 22.5252 to 22.5252
+Heightened Def Con from 22.5253 to 22.5253
+Heightened Def Con from 23.5298 to 23.5298
+Heightened Def Con from 25.5538 to 25.5538
+Heightened Def Con from 26.529 to 26.529
+Heightened Def Con from 26.5291 to 26.5291
+Heightened Def Con from 28.5323 to 28.5323
+Heightened Def Con from 29.5506 to 29.5506
+Heightened Def Con from 29.5507 to 29.5507
 
-Date: Fri Sep 25 13:32:43 2020
-Total elapsed time: 13.321 seconds.
+Date: Fri Sep 25 17:44:43 2020
+Total elapsed time: 13.490 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 210193
-traniter = 187974
-tranpoints = 62641
-accept = 59635
-rejected = 3359
+totiter = 208100
+traniter = 187898
+tranpoints = 62681
+accept = 59655
+rejected = 3308
 matrix size = 269
 fillins = 2013
 solver = Normal
-Thread vector: 18.0/11.2[6] 12.0/3.8[6] 11.1/4.0[6] 1.0/1.4[1]  2592/500
-Matrix Compiler1: 355.10 KB object code size  45.7/16.1/[12.2]
-Matrix Compiler2: 57.55 KB object code size  5.8/4.9/[2.0]
+Thread vector: 15.1/11.3[6] 5.2/2.9[6] 10.4/4.0[6] 1.0/1.5[1]  2592/500
+Matrix Compiler1: 355.10 KB object code size  45.0/17.4/[13.1]
+Matrix Compiler2: 57.55 KB object code size  5.7/4.9/[1.9]
 
