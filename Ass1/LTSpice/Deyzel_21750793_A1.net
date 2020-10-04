@@ -1,0 +1,43 @@
+* C:\work\E344\E344\Ass1\LTSpice\Deyzel_21750793_A1.asc
+V2 N005 N004 PWL file=PWLinput.csv
+V3 Stimulus N005 SINE({sineOffset} {sineAmplitude} {sineFreq})
+V1 N004 0 {dcAmplitude}
+V4 N010 0 9
+R_Sense 9V N010 0.010
+XU3 9V 0 5v LM7805
+C1 9V 0 0.33µ
+C3 5v 0 0.1µ
+R1 N009 N002 100k
+R2 N002 Stimulus 100k
+C2 N003 N002 159n
+C4 0 N009 79n
+XU1 N009 N003 5v 0 N003 TLC2272
+R3 N006 ofset 21k
+R4 N007 filter-out 21k
+R5 Vout N006 400k
+R6 Vgnd N007 400k
+R7 5v N011 1907
+R N011 0 1k
+XU4 N007 N006 5v 0 Vout TLC2272
+R9 5v Vgnd 5k
+R10 Vgnd 0 5k
+R8 N008 N001 100k
+R11 N001 N003 100k
+C5 filter-out N001 159n
+C6 0 N008 79n
+XU2 N008 filter-out 5v 0 filter-out TLC2272
+XU5 N011 ofset 5v 0 ofset TL081
+.tran 0 {transtop} 0 {timestep}
+.include E344cfg.txt
+* Don't change these -- used for auto-assessments.\nYou may modify input files while developing.\nFor submission: \n  * Use only 9V supply \n  * Connect "Stimulus" to your input\n  * Connect "Vout" to your output.\n  * Only one label name per net.
+* Config file:
+* Analysis setup:
+* Battery
+* Sensor-\nemulating \nstimulus
+* Assessed nets:\nConnect to your outputs
+* W. Deyzel,  21750793\nV(0degV) = 580 mV\ndeltaV/degV = 30 mV
+.incl TLC2272.LIB
+.incl TL081.lib
+.lib C:\work\E344\E344\LTSpice\LM7805.LIB
+.backanno
+.end
