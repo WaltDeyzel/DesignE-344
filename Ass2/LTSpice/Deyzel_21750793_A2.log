@@ -117,61 +117,19 @@ Source Step = 3.0303%
 Source Step = 12.136%
 Source stepping failed
 
-Pseudo transient terminated at 100.328 s, solution accepted ready or not!
-Heightened Def Con from 0.4641 to 0.4641
-Heightened Def Con from 1.5345 to 1.5345
-Heightened Def Con from 1.53502 to 1.53502
-Heightened Def Con from 1.53529 to 1.53529
-Heightened Def Con from 2.5203 to 2.5203
-Heightened Def Con from 2.52056 to 2.52056
-Heightened Def Con from 2.52059 to 2.52059
-Heightened Def Con from 3.5295 to 3.5295
-Heightened Def Con from 3.53002 to 3.53002
-Heightened Def Con from 3.53011 to 3.53011
-Heightened Def Con from 4.54087 to 4.54087
-Heightened Def Con from 5.5287 to 5.5287
-Heightened Def Con from 5.52922 to 5.52922
-Heightened Def Con from 5.52935 to 5.52935
-Heightened Def Con from 7.5283 to 7.5283
-Heightened Def Con from 7.52844 to 7.52844
-Heightened Def Con from 10.5258 to 10.5258
-Heightened Def Con from 11.5305 to 11.5305
-Heightened Def Con from 11.531 to 11.531
-Heightened Def Con from 11.5313 to 11.5313
-Heightened Def Con from 12.5194 to 12.5194
-Heightened Def Con from 12.5196 to 12.5196
-Heightened Def Con from 12.5198 to 12.5198
-Heightened Def Con from 13.5601 to 13.5601
-Heightened Def Con from 14.5295 to 14.5295
-Heightened Def Con from 18.54 to 18.54
-Heightened Def Con from 19.5138 to 19.5138
-Heightened Def Con from 21.5288 to 21.5288
-Heightened Def Con from 22.5247 to 22.5247
-Heightened Def Con from 22.5252 to 22.5252
-Heightened Def Con from 22.5253 to 22.5253
-Heightened Def Con from 23.5298 to 23.5298
-Heightened Def Con from 25.5538 to 25.5538
-Heightened Def Con from 26.529 to 26.529
-Heightened Def Con from 26.5291 to 26.5291
-Heightened Def Con from 28.5323 to 28.5323
-Heightened Def Con from 29.5506 to 29.5506
-Heightened Def Con from 29.5507 to 29.5507
-
-Date: Fri Sep 25 17:44:43 2020
-Total elapsed time: 13.490 seconds.
-
-tnom = 27
-temp = 27
-method = modified trap
-totiter = 208100
-traniter = 187898
-tranpoints = 62681
-accept = 59655
-rejected = 3308
-matrix size = 269
-fillins = 2013
-solver = Normal
-Thread vector: 15.1/11.3[6] 5.2/2.9[6] 10.4/4.0[6] 1.0/1.5[1]  2592/500
-Matrix Compiler1: 355.10 KB object code size  45.0/17.4/[13.1]
-Matrix Compiler2: 57.55 KB object code size  5.7/4.9/[1.9]
+Pseudo Transient failed in finding the operating point at 655.572 ms.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Changing Tseed to 1e-007
+Changing Tseed to 1e-009
+Changing Tseed to 1e-006
+Changing Tseed to 1e-010
+Changing Tseed to 1e-005
+Changing Tseed to 1e-011
+Changing Tseed to 0.0001
+Changing Tseed to 1e-012
+Changing Tseed to 0.001
+Changing Tseed to 1e-013
+Changing Tseed to 0.01
+Changing Tseed to 1e-014
+Fatal Error: Analysis:  Time step too small; initial timepoint: trouble with u2:jx-instance j:u2:2
 

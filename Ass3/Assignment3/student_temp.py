@@ -5,9 +5,19 @@ def calibrate(time, amplitude):
     ######################################
     # Enter calibration code here:
     ######################################
-    temperature = []
-    for analog in amplitude:
-        temperature.append(analog/5)
+
+    calibration_number = 4.77 # average of max analog reading at 42 degrees
+    minTemp = 34             # min temp for testing
+    div = 8                  # div between min and max temp 
+
+    # average analog value
+    analog = sum(amplitude)/len(amplitude)
+    # convertion formula
+    temperature = minTemp+analog*div/calibration_number
+
+
+    print(analog, temperature)
+
         
     ######################################
         

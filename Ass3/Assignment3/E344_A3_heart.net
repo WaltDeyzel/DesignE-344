@@ -1,0 +1,50 @@
+* C:\work\E344\E344\Ass3\Assignment3\E344_A3_heart.asc
+V1 Vheartsensor 0 PWL file=HeartSensorPWL.csv
+V4 N001 0 9
+R_Sense 9V N001 0.010
+XU1 9V 0 5V LM7805
+R1 d c 100k
+R2 c high-pass-out 100k
+C3 c filter-out 900n
+C4 0 d 450n
+XU3 d filter-out 5v 0 filter-out TL081
+R3 f filter-out 10k
+R4 amplify f 480k
+XU4 b high-pass-out 5v 0 high-pass-out TL081
+R5 b e 2000k
+R6 high-pass-out a 750530
+C5 b a 0.1µ
+C6 a Vheartsensor 0.1µ
+R7 5v h 50k
+R8 h 0 150k
+XU5 h ref 5v 0 ref TL081
+R9 5v N002 500k
+R10 N002 0 500k
+XU6 N002 e 5v 0 e TL081
+R11 N003 amplify 10k
+R12 N004 ref 10k
+R13 Vheartpulsesout N004 1000k
+XU7 N004 N003 5v 0 Vheartpulsesout LT1018
+XU8 e f 5v 0 amplify TLC2272
+C1 9V 0 0.1µ
+C2 5V 0 0.33µ
+.tran 0 {transtop} 0 {timestep}
+.include A3heartcfg.txt
+* Don't change these -- used for auto-assessments.\nYou may modify input files while developing.\nFor submission: \n  * Use only 9V supply \n  * Connect "Vheartsensor" to your \n               conditioning circuit's input\n  * Connect "Vheartpulsesout" to your output signal.\n  * Only one label name per net.
+* Config file:
+* Analysis setup:
+* Battery
+* Sensor-\nemulating \nstimulus
+* =============================\nREPLACE WITH YOUR DETAILS\nE. Stewdent.,  00024601\nVheartsensor offset = 500 mV\nVheartsensor ampl = 20 mV\n=============================
+* ==========================================================================================\nHeart signal conditioning circuit (only copy and paste the given op-amps, or use those given in the working directory only)\n==========================================================================================
+* =============================\nVoltage regulation (complete this)\n=============================
+.incl TLC2272.LIB
+.incl TL081.LIB
+.incl LM78XX_RS.lib
+* Connect to your conditioning circuit's output
+* =============================\nIncludes (don't fiddle with this!!)\n=============================
+* =======================================\nYour circuit goes here, these are just placeholders.\n=======================================
+.lib LM78XX_RS.lib
+.lib LTC1.lib
+.backanno
+.end
