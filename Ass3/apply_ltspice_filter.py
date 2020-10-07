@@ -307,6 +307,7 @@ def apply_ltspice_filter2(simname,sig_in_x,sig_in_y,**kwargs):
     else:
       import subprocess
       subprocess.run([*ltspice_command.split(), "{:s}.asc".format(simname)])
+      
     
   else:
     print("input data did not change, reading existing .raw file")
