@@ -16,23 +16,23 @@ def calibrate(time, amplitude):
     periods1 = []
     flag1 = False
     for i in range(len(amplitude)-1):
-        if(amplitude[i+1]-amplitude[i] > 4):
+        div = amplitude[i+1]-amplitude[i]
+        if( div > 4):
             t_past = t_now
             t_now = time[i]
             if(flag == True):
                 period = t_now - t_past
                 periods.append(period)
                 #print('period', period)
-                
             flag = True
-        if(amplitude[i+1]-amplitude[i] < -4):
+            
+        if(div < -4):
             t_past1 = t_now1
             t_now1 = time[i]
             if(flag1 == True):
                 period1 = t_now1 - t_past1
                 periods1.append(period1)
                 #print('period', period1)
-                
             flag1 = True
    
 
