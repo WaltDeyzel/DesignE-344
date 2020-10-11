@@ -9,10 +9,8 @@ def calibrate(time, amplitude):
     # average analog value
     analog = sum(amplitude)/len(amplitude)
     # convertion formula
-    temperature = minTemp+analog*div/calibration_number
-
-
-    print(analog, temperature)
+    temperature = round(minTemp+analog*div/calibration_number)
         
     return temperature
-        
+        s
+# python assignment_3_temp.py 580 30 34

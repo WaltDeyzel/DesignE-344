@@ -41,7 +41,7 @@ def calibrate(time, amplitude):
     bpm = 60*len(periods)/sum(periods)+1
 
     bpm = round(bmpRevenge(bpm, periods, periods1))
-    
+    print(len(time))
     return bpm
         
 #python assignment_3_heart.py 1.9 66.6 150
@@ -50,15 +50,17 @@ def calibrate(time, amplitude):
 def bmpRevenge(beat, risingEdge, fallingEdge):
 
     #accurate for everything above 100 TESTED
-    if(beat > 80):
+    if(len(risingEdge)>1):
         risingEdge.remove(risingEdge[0])
         fallingEdge.remove(fallingEdge[0])
-        bpmA = 60*len(risingEdge)/sum(risingEdge)
-        bpmB = 60*len(fallingEdge)/sum(fallingEdge)
-        bpm = (bpmA+bpmB)/2
-        return bpm
-
+        
+    # if(beat > 80):
+    bpmA = 60*len(risingEdge)/sum(risingEdge)
+    bpmB = 60*len(fallingEdge)/sum(fallingEdge)
+    bpm = (bpmA+bpmB)/2
+    return bpm
+    
     #rising and falling edge average
-    new_period = (sum(risingEdge)+sum(fallingEdge))/(len(risingEdge)+len(fallingEdge)) 
-    print('new', 60/new_period)
-    return 60/new_period+0.6
+    # new_period = (sum(risingEdge)+sum(fallingEdge))/(len(risingEdge)+len(fallingEdge)) 
+    # print('new', 60/new_period)
+    # return 60/new_period+0.6

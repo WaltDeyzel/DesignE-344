@@ -23,7 +23,7 @@ class assignment_3_heart:
         input_data['amplitude'] = []
         #for number in range (20*250):
         #    timestep = number*4/1000
-        for timestep in np.arange(0,2,0.001):
+        for timestep in np.arange(0,6,0.001):
             fundamentalHeart = float(bpm)/60
             heart = amplitude * ( 4 * math.sin(2 * math.pi * fundamentalHeart * timestep) + 2 * math.sin(2 * math.pi * (fundamentalHeart*2) *timestep) + 1 * math.sin(2 * math.pi * (fundamentalHeart*3) * timestep)) 
             noise = amplitude * (2* math.sin(0.25*timestep* 2 * math.pi) + 2 * math.sin(20*timestep*2*math.pi) + 0.4 *math.sin(50*timestep*2*math.pi) + 0.8*math.sin(350*timestep*2*math.pi))
