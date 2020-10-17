@@ -35,7 +35,7 @@ XU7 e f 5v 0 amplify TLC2272
 * Analysis setup:
 * Battery
 * Sensor-\nemulating \nstimulus
-* =============================\nREPLACE WITH YOUR DETAILS\nE. Stewdent.,  00024601\nVheartsensor offset = 500 mV\nVheartsensor ampl = 20 mV\n=============================
+* =============================\nREPLACE WITH YOUR DETAILS\nW. Deyzel.,  21750793\nVheartsensor offset = 580 mV\nVheartsensor ampl = 30 mV\n=============================
 * ==========================================================================================\nHeart signal conditioning circuit (only copy and paste the given op-amps, or use those given in the working directory only)\n==========================================================================================
 * =============================\nVoltage regulation (complete this)\n=============================
 .incl TLC2272.LIB

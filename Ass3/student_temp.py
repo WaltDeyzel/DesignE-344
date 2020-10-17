@@ -12,5 +12,4 @@ def calibrate(time, amplitude):
     temperature = round(minTemp+analog*div/calibration_number)
         
     return temperature
-        s
 # python assignment_3_temp.py 580 30 34

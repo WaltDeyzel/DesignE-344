@@ -1,66 +1,37 @@
 import numpy as np
 
 def calibrate(time, amplitude):
-
+        
     bpm = 0
-    #rising edge
-    t_now = 0
-    t_past = 0
-    period = 0
-    periods = []
-    flag = False
-    #falling edge
-    t_now1 = 0
-    t_past1 = 0
-    period1 = 0
-    periods1 = []
-    flag1 = False
-    for i in range(len(amplitude)-1):
-        div = amplitude[i+1]-amplitude[i]
-        if( div > 4):
-            t_past = t_now
-            t_now = time[i]
-            if(flag == True):
-                period = t_now - t_past
-                periods.append(period)
-                #print('period', period)
-            flag = True
+    time_1 = 0
+    time_2 = 0
+    rising_edge = False
+    temp = 0
+    rising_period = []
+    rising_period1 = []
+
+    for x in range(len(amplitude)-1):
+        delta = amplitude[x+1]-amplitude[x]
+        if( delta > 4):
+            if(time[x] > 2):
+                time_2 = time_1
+                time_1 = time[x]
+                if(rising_edge == True):
+                    temp = time_1 - time_2 
+                    rising_period.append(temp) 
+                    #print('Rising period', temp)
+                rising_edge = True
             
-        if(div < -4):
-            t_past1 = t_now1
-            t_now1 = time[i]
-            if(flag1 == True):
-                period1 = t_now1 - t_past1
-                periods1.append(period1)
-                #print('period', period1)
-            flag1 = True
-   
+    avg = sum(rising_period)/len(rising_period)
+    #print('Average', avg)
 
-    if(period == 0):
-        return -1
-    bpm = 60*len(periods)/sum(periods)+1
-
-    bpm = round(bmpRevenge(bpm, periods, periods1))
-    print(len(time))
+    for i in range(len(rising_period)):
+        dev = (rising_period[i] - avg) / avg
+        if((dev < 0.1) & (dev > - 0.1)): 
+            temp = rising_period[i]
+            rising_period1.append(temp)
+            #print('New Rising period', temp)
+ 
+    temp = 60*len(rising_period1)/sum(rising_period1)
+    bpm = round(temp)
     return bpm
-        
-#python assignment_3_heart.py 1.9 66.6 150
-#work\e344\e344\ass3
-
-def bmpRevenge(beat, risingEdge, fallingEdge):
-
-    #accurate for everything above 100 TESTED
-    if(len(risingEdge)>1):
-        risingEdge.remove(risingEdge[0])
-        fallingEdge.remove(fallingEdge[0])
-        
-    # if(beat > 80):
-    bpmA = 60*len(risingEdge)/sum(risingEdge)
-    bpmB = 60*len(fallingEdge)/sum(fallingEdge)
-    bpm = (bpmA+bpmB)/2
-    return bpm
-    
-    #rising and falling edge average
-    # new_period = (sum(risingEdge)+sum(fallingEdge))/(len(risingEdge)+len(fallingEdge)) 
-    # print('new', 60/new_period)
-    # return 60/new_period+0.6
