@@ -1,0 +1,11 @@
+* C:\work\E344\E344\Ass3\Draft1.asc
+XU1 NC_01 NC_02 NC_03 NC_04 NC_05 TL081
+V1 5V 0 5
+V2 N002 0 0.33
+XU2 N002 N001 5V 0 N001 TLC2272
+.incl TLC2272.LIB
+.incl TL081.LIB
+.incl LM78XX_RS.lib
+.tran 0 1 0 1
+.backanno
+.end

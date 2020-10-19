@@ -11,5 +11,5 @@ def calibrate(time, amplitude):
     # convertion formula
     temperature = round(minTemp+analog*div/calibration_number)
         
-    return temperature
+    return analog
 # python assignment_3_temp.py 580 30 34

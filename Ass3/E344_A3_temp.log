@@ -165,29 +165,36 @@ Source Step = 95.6821%
 Source Step = 96.3548%
 Source Step = 96.4509%
 Source Step = 96.547%
+Source Step = 96.6431%
+Source Step = 96.7392%
+Source Step = 96.8353%
+Source Step = 96.9314%
+Source Step = 97.0275%
 Starting source stepping with srcstepmethod=1
 Source Step = 3.0303%
-Source Step = 7.48106%
-vernier = 0.00390625
+Source Step = 23.4848%
+vernier = 0.0625
+Source Step = 23.5795%
+Source Step = 23.6476%
 Source stepping failed
 
-Pseudo Transient succeeded in finding the operating point at 598.904 ms.
+Pseudo Transient succeeded in finding the operating point at 648.143 ms.
 
-Date: Fri Oct 16 08:13:34 2020
-Total elapsed time: 8.400 seconds.
+Date: Mon Oct 19 12:18:19 2020
+Total elapsed time: 17.881 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 40666
-traniter = 10550
-tranpoints = 2513
-accept = 2356
-rejected = 639
+totiter = 38133
+traniter = 9009
+tranpoints = 2299
+accept = 2210
+rejected = 437
 matrix size = 446
-fillins = 1556
+fillins = 1714
 solver = Normal
-Thread vector: 32.5/12.3[11] 6.8/3.2[11] 9.7/2.6[11] 2.1/2.6[1]  2592/500
-Matrix Compiler1: 180.24 KB object code size  29.3/11.3/[7.8]
-Matrix Compiler2: 64.61 KB object code size  7.8/7.6/[4.9]
+Thread vector: 42.9/24.7[11] 15.3/21.1[1] 27.5/9.9[11] 3.1/70.8[1]  2592/500
+Matrix Compiler1: 221.96 KB object code size  56.5/21.3/[14.3]
+Matrix Compiler2: 67.27 KB object code size  38.4/28.1/[7.8]
 

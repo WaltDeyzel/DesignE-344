@@ -115,48 +115,41 @@ Source Step = 92.2083%
 Source Step = 92.2983%
 Source Step = 92.3882%
 Source Step = 92.4782%
-Source Step = 92.5682%
-Source Step = 92.6582%
-Source Step = 92.7482%
-Source Step = 92.8382%
-Source Step = 92.9282%
-Source Step = 93.0182%
-Source Step = 93.1082%
 Starting source stepping with srcstepmethod=1
 Source Step = 3.0303%
 vernier = 0.25
-Source Step = 2.93561%
+Source Step = 2.22538%
 Source stepping failed
 
-Pseudo transient terminated at 100.732 s, solution accepted ready or not!
-Heightened Def Con from 0.52382 to 0.52382
-Heightened Def Con from 1.2932 to 1.2932
-Heightened Def Con from 1.29323 to 1.29323
-Heightened Def Con from 1.29324 to 1.29324
-Heightened Def Con from 1.98928 to 1.98928
-Heightened Def Con from 1.98962 to 1.98962
-Heightened Def Con from 2.69589 to 2.69589
-Heightened Def Con from 4.11922 to 4.11922
-Heightened Def Con from 4.11943 to 4.11943
-Heightened Def Con from 4.82717 to 4.82717
-Heightened Def Con from 4.82733 to 4.82733
-Heightened Def Con from 5.52986 to 5.52986
+Pseudo Transient succeeded in finding the operating point at 11.1298 s.
+Heightened Def Con from 0.7277 to 0.7277
+Heightened Def Con from 1.1983 to 1.1983
+Heightened Def Con from 1.19856 to 1.19856
+Heightened Def Con from 1.80341 to 1.80341
+Heightened Def Con from 1.80371 to 1.80371
+Heightened Def Con from 2.11584 to 2.11584
+Heightened Def Con from 2.40784 to 2.40784
+Heightened Def Con from 3.00861 to 3.00861
+Heightened Def Con from 3.61308 to 3.61308
+Heightened Def Con from 4.22309 to 4.22309
+Heightened Def Con from 4.82919 to 4.82919
+Heightened Def Con from 5.442 to 5.442
 
-Date: Fri Oct 16 08:33:15 2020
-Total elapsed time: 18.499 seconds.
+Date: Sun Oct 18 20:29:50 2020
+Total elapsed time: 19.403 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 103519
-traniter = 65732
-tranpoints = 29698
-accept = 28724
-rejected = 1525
+totiter = 105055
+traniter = 66074
+tranpoints = 29739
+accept = 28790
+rejected = 1563
 matrix size = 265
-fillins = 2394
+fillins = 2579
 solver = Normal
-Thread vector: 23.3/15.2[6] 9.2/3.3[6] 21.2/5.5[6] 2.1/349.2[1]  2592/500
-Matrix Compiler1: 467.68 KB object code size  62.8/24.4/[16.7]
-Matrix Compiler2: 63.54 KB object code size  7.9/7.2/[4.3]
+Thread vector: 19.5/13.6[6] 9.3/4.9[6] 31.9/19.2[6] 3.1/37.1[1]  2592/500
+Matrix Compiler1: 553.55 KB object code size  85.9/25.6/[19.6]
+Matrix Compiler2: 66.71 KB object code size  34.0/22.9/[7.9]
 

@@ -1,0 +1,385 @@
+Circuit: * C:\work\E344\E344\Ass3\Draft1.asc
+
+WARNING: Node NC_02 is floating.
+WARNING: Node NC_01 is floating.
+
+WARNING: Less than two connections to node NC_02.  This node is used by J:U1:1.
+WARNING: Less than two connections to node NC_01.  This node is used by J:U1:2.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 4.81882
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 4.77215
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 4.77913
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 21.2595%
+vernier = 0.00390625
+Source Step = 21.2388%
+Source Step = 21.2683%
+Source Step = 21.2979%
+Source Step = 21.3275%
+Source Step = 21.3571%
+vernier = 0.00146484
+Source Step = 21.3971%
+Source Step = 21.4415%
+Source Step = 21.4859%
+Source Step = 21.5302%
+Source Step = 21.5746%
+vernier = 0.00219727
+Source Step = 21.6323%
+Source Step = 21.6989%
+Source Step = 21.7655%
+Source Step = 21.8321%
+Source Step = 21.8987%
+vernier = 0.0032959
+Source Step = 21.9819%
+Source Step = 22.0818%
+Source Step = 22.1817%
+Source Step = 22.2815%
+Source Step = 22.3814%
+vernier = 0.00494385
+Source Step = 22.5013%
+Source Step = 22.6511%
+Source Step = 22.8009%
+Source Step = 22.9507%
+Source Step = 23.1005%
+vernier = 0.00741577
+Source Step = 23.2728%
+Source Step = 23.4975%
+Source Step = 23.7222%
+Source Step = 23.947%
+Source Step = 24.1717%
+vernier = 0.0111237
+Source Step = 24.4189%
+Source Step = 24.756%
+Source Step = 25.093%
+Source Step = 25.4301%
+Source Step = 25.7672%
+vernier = 0.0166855
+Source Step = 26.1211%
+Source Step = 26.6267%
+Source Step = 27.1324%
+Source Step = 27.638%
+Source Step = 28.1436%
+Source Step = 28.6492%
+vernier = 0.0250282
+Source Step = 29.4077%
+Source Step = 30.1661%
+Source Step = 30.9245%
+Source Step = 31.683%
+Source Step = 32.4414%
+vernier = 0.0375423
+Source Step = 33.5411%
+Source Step = 34.6788%
+Source Step = 35.8164%
+Source Step = 36.9541%
+Source Step = 38.0917%
+vernier = 0.0563135
+Source Step = 39.6844%
+Source Step = 41.3909%
+Source Step = 43.0973%
+Source Step = 44.8038%
+Source Step = 46.5103%
+vernier = 0.0844703
+Source Step = 48.814%
+Source Step = 51.3737%
+Source Step = 53.9334%
+Source Step = 56.4931%
+Source Step = 59.0528%
+vernier = 0.126705
+Source Step = 62.3805%
+Source Step = 66.22%
+Source Step = 70.0596%
+Source Step = 73.8991%
+Source Step = 77.7387%
+vernier = 0.190058
+Source Step = 82.5381%
+Source Step = 82.9521%
+Source Step = 83.0421%
+Source Step = 83.1321%
+Source Step = 83.2221%
+Source Step = 83.312%
+Source Step = 83.402%
+vernier = 0.00445449
+Source Step = 83.537%
+Source Step = 83.672%
+Source Step = 83.807%
+Source Step = 83.942%
+Source Step = 84.077%
+vernier = 0.00668173
+Source Step = 84.2727%
+Source Step = 84.4397%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 22.1591%
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 1.36105 s.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Changing Tseed to 1e-007
+Changing Tseed to 1e-009
+Changing Tseed to 1e-006
+Changing Tseed to 1e-010
+Changing Tseed to 1e-005
+Changing Tseed to 1e-011
+Changing Tseed to 0.0001
+Changing Tseed to 1e-012
+Changing Tseed to 0.001
+Changing Tseed to 1e-013
+Changing Tseed to 0.01
+Changing Tseed to 1e-014
+Heightened Def Con from 0 Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+Changing Tseed to 1e-006
+Changing Tseed to 1e-012
+Changing Tseed to 1e-005
+Changing Tseed to 1e-013
+Changing Tseed to 0.0001
+Changing Tseed to 1e-014
+Changing Tseed to 0.001
+Changing Tseed to 1e-015
++Changing Tseed to 1e-008
+Changing Tseed to 1e-010
+Changing Tseed to 1e-007
+Changing Tseed to 1e-011
+to 1.125e-011
+
+Date: Sat Oct 17 11:18:23 2020
+Total elapsed time: 41.897 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3554987
+traniter = 668443
+tranpoints = 156838
+accept = 117423
+rejected = 116965
+matrix size = 158
+fillins = 407
+solver = Normal
+Thread vector: 6.7/5.0[3] 1.6/1.1[3] 2.9/1.5[3] 0.4/2.5[1]  2592/500
+Matrix Compiler1: 35.42 KB object code size  4.3/1.9/[1.4]
+Matrix Compiler2: 19.98 KB object code size  1.4/1.8/[0.8]
+
